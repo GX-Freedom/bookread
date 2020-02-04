@@ -1,0 +1,7 @@
+
+.comente_box{
+    display: grid;
+    grid-area: comente;   
+    border: 3px solid yellow;
+
+}

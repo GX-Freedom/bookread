@@ -1,0 +1,70 @@
+
+.nav_ber{
+    display: grid;
+    grid-area: sidebar;
+    border-radius: 10px;
+    box-shadow: inset 10px 10px 8px 4px rgba(0,0,0,0.14);    justify-content: center;
+    background-color: rgba(95, 158, 160, 0.096);
+}
+.nav_ber>.hyper_link{
+    color: cadetblue;
+    font-size:  1rem;
+    font-weight: 500;
+}
+.list_box{
+    list-style: none;
+    width: 100%;
+    margin: 1rem auto;
+}
+.list_box>*{
+    margin: 1rem auto;
+    padding: 1px
+
+}
+.booklist{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) 0.5fr;
+    margin: .7rem;
+}
+.list_title{
+    border: 1px solid green;
+    justify-content: flex-end;
+}
+.list_title>a{
+    color: cadetblue;
+    font-size:  1rem;
+    font-weight: 500;
+}
+.small_text{
+    border: 1px solid red;
+    opacity: 0.7;
+    font-size: 13px;
+
+}
+.list_img{
+    display: flex;
+    border: 1px solid blue;
+}
+.list_img>a>img{
+    margin: 5px;
+    border-radius: 5px;
+    width: 50px;
+
+}
+.list_box_btn{
+    background-color: burlywood;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1.5px 5px 0px rgba(0,0,0,0.75);
+    margin: 10px;
+}
+
+
+@media screen and (max-width: 1100px)
+{
+    .booklist{
+        display: block;
+    }
+
+}
+

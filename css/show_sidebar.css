@@ -1,0 +1,24 @@
+
+.show_nav{
+    width: 50%;
+    display: flex;
+    grid-area: sidebar;
+    border: 2px solid green;
+    grid-template-columns: repeat(1, 1fr) 1fr;
+}
+
+.share_icon{
+    display: inline-flex;
+    font-size:1rem;
+    color: green;
+}
+
+.main_box_tow>.show_nav>.info_box>li>span{
+    display: none;
+   
+
+}
+.main_box_tow>.show_nav>.info_box>li>img{
+    width: 30px;
+    margin: 5px;
+}

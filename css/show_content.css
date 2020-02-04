@@ -1,0 +1,33 @@
+
+.show_main{
+    margin-left: 5rem;
+    width: 100%;
+    display: flex;
+    grid-area: contents;
+    border: 3px solid blue;
+    margin-top: 4.5rem;    
+}
+.main_box_tow{
+    display: flex;
+}
+.show_article{
+    width: 99%;
+}
+
+input{
+    margin: 0.5rem;
+}
+.book_local_info{
+    padding: 0.4rem;
+    border: 2px solid #f6f6f6;
+    box-shadow:   1px 1px 0px 0px rgba(139, 139, 139, 0.548),
+  -0.5px -0.5px 0px 0px rgba(112, 112, 112, 0.486);
+    margin: 1rem;
+    border-radius: 15px;
+    background-color :#f6f6f6 ;
+    border-bottom-left-radius: 0px;
+    text-align: center;  
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}

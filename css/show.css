@@ -1,0 +1,44 @@
+@import "show_header.css";
+@import "show_sidebar.css";
+@import "show_menu.css";
+@import "show_footer.css";
+@import "show_content.css";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 80%;
+    height: 150vh;
+
+}
+*>ul{
+    list-style: none;
+}
+
+.hov:hover{
+    cursor: pointer;
+}
+
+.show_box{
+    width: 100%;
+    height: 150vh;
+    display: grid;
+
+    grid-template-areas: "header header header "
+    "sidebar contents sidebar"
+    "sidebar contents sidebar"
+    "sidebar comente sidebar"
+    "footer footer footer";
+    border: 1px solid purple;
+
+} 
+
+.hyper_link{
+    text-decoration: none;
+    color: cadetblue;
+    font-size:  1rem;
+    font-weight: 500;
+}

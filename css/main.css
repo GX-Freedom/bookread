@@ -1,0 +1,112 @@
+
+.main{
+    grid-area: content;
+    width: 100%;
+    height: 100%;
+    border: 0.5px solid blue;
+    background-color: rgba(128, 128, 128, 0.123);
+}
+.article_contents{
+    list-style: none;
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) 1fr;
+
+}
+
+.article_text{
+    color: red;
+    padding: 0.5rem;
+    border: 0.5px solid yellow;
+
+}
+.article_text>pre{
+    font-size: 2rem;
+}
+.article_text>h1, .article_text>h4{
+    margin: 1rem;
+}
+
+.main_contens{
+    border: 1px solid red;
+    list-style: none;
+
+}
+.main_area{
+    background-color: rgba(233, 185, 140, 0.295);
+    border-radius: 25px;
+    margin: 1rem;
+    box-shadow: inset 10px 10px 8px 4px rgba(0,0,0,0.14),
+    10px 10px 8px 4px rgba(0,0,0,0.14);
+}
+.corver_all{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1px;
+    border: 1px solid red;
+    height: 25vh;
+
+}
+.corver_left{
+    display: flex;
+    align-items: center;
+
+}
+.corver_all>div>a>img{
+    width: 15vh;
+    height: 20vh;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+
+@media screen and (min-width: 1400px)
+{
+    .article_contents{
+        list-style: none;
+        border: 1px solid red;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr) 2.5fr;
+    }
+}
+
+@media screen and (max-width: 600px)
+{
+    
+.corver_all>div>a>img{
+        width: 50px;
+        height: 100%;
+
+    }
+    .corver_left>a{
+    display: inline-block;
+    flex-direction: column;
+
+    }
+.corver_all{
+    display: flex;
+
+}
+.corver_all .arrow{
+    display: inline-block;
+}
+.corver_right{
+    display: inline-block;
+
+}
+}
+@media screen and (max-width: 420px){
+
+    .corver_box{
+        padding: 1rem;
+    }
+    .corver_all{
+        margin: 5rem auto;
+    }
+    .corver_left{
+        flex-direction: column;
+
+    }
+}

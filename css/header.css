@@ -1,0 +1,93 @@
+
+.header{
+    display: grid;
+    grid-area: header;
+    background-image: url(../images/books.png);
+    justify-content: space-between;
+    grid-template-columns: repeat(1, 1fr) 0.15fr;
+    height: 100%;
+}
+.info_box>li>input{
+    margin: 5.5px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.main_title{
+    grid-column-start: 0;
+    border: 3px solid purple;
+    padding: 10px;
+}
+.ilne{
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.295);
+    padding-bottom: 1.5rem;
+}
+
+.main_title>pre, pre>a{
+    color:  #03191d;
+    margin-top: 1rem;
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: center;
+    box-shadow:  3px 2px 4px 2px rgba(0,0,0,0.75);
+    border-radius: 20px;
+}
+pre>a{
+    padding: 3px;
+    border-radius: 30px;
+}
+.info_box{
+    display: block;
+    list-style: none;
+    justify-self: flex-end;
+    text-align: center;
+    align-self: flex-start;
+    margin: 10px;
+
+}
+
+.Social_Service{
+    background-color: rgba(128, 128, 128, 0.068);
+}
+
+.log_in>input .checkbox{
+    display: block;
+    flex-direction: column;
+    margin: 10px;
+}
+.log_in>span{
+    font-size: 10px;
+    color: red;
+}
+.log_in{
+    margin-bottom: 2rem;
+}
+
+.sign_up{
+    text-align: right;
+}
+.sign_up>input{
+    margin: 5px;
+}
+
+.none{
+    display: none;
+}
+.Social_Service i{
+    border: 1px solid rgba(255, 255, 255, 0.719);
+    background-color: rgba(255, 255, 255, 0.164);
+    border-radius: 100%;
+    padding: 3px;
+    opacity: 0.8;
+
+}
+
+.button{
+    padding: 1px;
+    border-radius: 10px;
+    font-size: 0.95rem;
+    background-color: salmon;
+    margin: 10px;
+}

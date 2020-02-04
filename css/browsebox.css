@@ -1,0 +1,48 @@
+.browsebox{
+    grid-area: menu;
+    height: 100px;
+    width: 100%;
+    border: 3px solid red;
+
+}
+.browsebox>h2, .sitesearch>.search{
+    margin: 1rem;
+
+}
+
+.lists{
+    border: 1px solid blue;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+
+}
+
+.quotes{
+   margin: 1rem;
+}
+
+.feature_teaser_box{
+    display: grid;
+    grid-template-columns: repeat(1, 0.5fr 2fr) 1fr;
+    font-size: 1.5rem;
+
+}
+.quotes_list{
+    list-style: none;
+}
+.awardofyear{
+    display: grid;
+    grid-template-columns: repeat(3,  1fr) 1fr; 
+    margin: 1rem;
+
+}
+.best_seller_logo{
+    grid-column-start: 1; 
+    grid-column-end: 2; 
+    grid-row-start: 1; 
+    grid-row-end: 13;
+}
+.quotes>*>a>img, .awardofyear>.best_seller_logo>a>img{
+    width: 100%;
+}
